@@ -2,7 +2,7 @@
 
 import requests
 
-# CHANGE THIS
+# CHANGE THIS but keep /filter
 TARGET = "YOUR.LAB.ID/filter"
 
 def exploit_sqli():
