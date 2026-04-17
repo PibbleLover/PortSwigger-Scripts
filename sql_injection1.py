@@ -2,7 +2,8 @@
 
 import requests
 
-TARGET = "https://0ae9004e03e723aa82637e7e00d600ce.web-security-academy.net/filter"
+# CHANGE THIS
+TARGET = "YOUR.LAB.ID/filter"
 
 def exploit_sqli():
     payload = "' OR 1=1--"
