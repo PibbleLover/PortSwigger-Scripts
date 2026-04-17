@@ -3,7 +3,7 @@
 import requests
 
 # CHANGE THIS but keep /filter
-TARGET = "YOUR.LAB.ID/filter"
+TARGET = "YOUR.LAB.URL/filter"
 
 def exploit_sqli():
     payload = "' OR 1=1--"
